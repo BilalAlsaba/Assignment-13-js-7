@@ -1,0 +1,242 @@
+.container
+{
+    padding: 100px 0px;
+}
+
+
+#Home
+{
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.Homeallcontent
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+#leftMenu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+   z-index: 999;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#leftMenu a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+.openNav{
+   font-size:30px;
+   cursor:pointer;
+}
+
+
+#Home h2
+{
+    margin-top: 200px;
+    
+}
+
+
+
+
+#leftMenu a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+#leftMenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#home-content h2
+{
+    font-size: 60px;
+}
+
+
+
+#slids
+{
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+    
+}
+
+#slids h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+
+#slids div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+
+
+
+#count
+{
+   
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    
+    
+}
+
+
+.count-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+
+
+.tim
+{
+    
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+
+
+
+#Join-us{
+    margin-top:100px;
+}
+
+#Join-us .Join-first h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#Join-us .Join-first p{
+    color:#777;
+    font-weight: 300;
+}
+#Join-us .con-info h3{
+    color:#444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#Join-us .con-info p{
+    line-height: 26px;
+    color:#777;
+}
+
+#Join-us .icons{
+    margin-top:50px;
+}
+#Join-us i{
+    margin-right: 20px;
+    color:#777;
+}
+#Join-us .red{
+    color:#D62E33 !important;
+}
+
+
+#Join-us .con-info .contact-list{
+    margin-top:60px;
+    color:#777;
+    
+}
+
+#Join-us .con-info .contact-list i{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color ,1s;
+
+}
+#Join-us .con-info .contact-list i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+
+
+
+#Join-us form input,
+#Join-us form textarea{
+    margin-bottom: 20px;
+}
+#Join-us form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+#Join-us form button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    text-transform: uppercase
+}
+
+#chars
+{
+    font-size: 20px;
+    color: #D62E33;
+}
+
+button{
+   display:block;
+   margin-top:20px;
+}
